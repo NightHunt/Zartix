@@ -1,0 +1,33 @@
+/**
+Main file for styling Zartix Project
+*/
+
+body{
+    padding: 0;
+    font-size: 14px;
+    background: #ebeff1 url("/img/squared_metal.png");
+}
+
+#site{
+    width: 100%;
+    height: 100%;
+    background-color: darkcyan;
+    margin: 0;
+    padding: 0;
+}
+
+#leftPanel{
+    width: 20%;
+    height: 100%;
+    background-color: brown;
+    display: inline-block;
+    padding: 0;
+}
+
+#mainContent{
+    width: 80%;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: inline;
+    padding: 0;
+}

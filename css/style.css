@@ -1,33 +1,22 @@
-/**
-Main file for styling Zartix Project
-*/
+/**Main styles for all Zartix*/
 
 body{
+    margin: 0 auto;
     padding: 0;
-    font-size: 14px;
-    background: #ebeff1 url("/img/squared_metal.png");
+    background-image: url("../img/squared_metal.png");
 }
 
 #site{
+    background-color: rgba(100,100,100, .2);
     width: 100%;
     height: 100%;
-    background-color: darkcyan;
-    margin: 0;
-    padding: 0;
 }
 
 #leftPanel{
+    background-color: rgba(0, 179, 232, 0.2);
     width: 20%;
-    height: 100%;
-    background-color: brown;
-    display: inline-block;
-    padding: 0;
 }
 
-#mainContent{
-    width: 80%;
-    height: 100%;
-    background-color: cornflowerblue;
-    display: inline;
-    padding: 0;
+#logo>img{
+    width: 100%;
 }

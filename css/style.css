@@ -1,46 +1,23 @@
 /**Main styles for all Zartix*/
 
 body{
-    margin: 0;
-    padding: 0;
     background-image: url("../img/squared_metal.png");
 }
 
-#head{
-    display: inline-block;
-    margin: 0 auto;
-    background-color: rgba(100,100,100, .2);
-    width: 100%;
-    height: 100%;
-}
-
-#leftPanel{
-    width: 20%;
-    height: 100%;
-}
-
 #logo>img{
-    background-color: rgba(0, 179, 232, 0.2);
-    width: 20%;
-}
-
-#resumes *{
     width: 100%;
-    height: 50px;
-    text-align: center;
-    padding-top: 15px;
-    border: 1px dashed #333;
-    background-color: #61b7fc;
 }
 
-#mainContent{
-    display: inline-block;
+#leftPanel div{
+    height: 70px;
+    background-color: rgba(100,100,100,.5); /**for test*/
 }
 
 #slider{
     display: inline-block;
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
 }
 
 .iconLeft{
@@ -53,4 +30,39 @@ body{
     padding-top: 170%;
     margin-right: -30px;
     width: 50%;
+}
+
+#advantOne{
+    background-color: #282828;  /**for test*/
+    height: 200px;              /**for test*/
+}
+
+#advantTwo{
+    background-color: #285e8e;  /**for test*/
+    height: 200px;              /**for test*/
+}
+
+#advantTree{
+     background-color: #269abc;  /**for test*/
+     height: 200px;              /**for test*/
+ }
+
+#topResumeOne{
+    background-color: #843534;  /**for test*/
+    height: 300px;              /**for test*/
+}
+
+#topResumeTwo{
+    background-color: #ac2925;  /**for test*/
+    height: 300px;              /**for test*/
+}
+
+#topResumeTree{
+    background-color: #c0a16b;  /**for test*/
+    height: 300px;              /**for test*/
+}
+
+#topResumeFour{
+    background-color: #8a6d3b;  /**for test*/
+    height: 300px;              /**for test*/
 }

@@ -4,36 +4,98 @@ body{
     background-image: url("../img/squared_metal.png");
 }
 
-#logo>img{
-    width: 100%;
+.col-lg-2 nav{
+    /*position: fixed; *//**for fixed menu*/
+    /*width: 220px;    *//**for fixed menu*/
+}
+
+#logo{
+    background-image: url("../img/ResumArt.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    /*border-bottom: 1px dashed #222222;*/
+
 }
 
 #leftPanel div{
-    height: 70px;
-    background-color: rgba(100,100,100,.5); /**for test*/
+    height: 95px;
+    /*border-bottom: 1px dashed #222222;*/
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 23px;
+    cursor: pointer;
+}
+
+#leftPanel div:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    background: -webkit-repeating-linear-gradient(-45deg, rgba(183, 183, 183, 0.2) 6px, rgba(183, 183, 183, 0.2) 6px, transparent 9px, transparent 13px);
+    transition-property: opacity, background;
+    transition-duration: .6s;
+}
+
+#leftPanel div:hover::after{
+    opacity: 0;
+    background: rgba(244, 244, 244, 0.70);
+    text-shadow: 2px, 2px;
+}
+
+#resumes{
+    background-color: rgba(67, 22, 58, 1);
+}
+
+#services{
+    background-color: rgba(38, 45, 114, 1);
+}
+
+#whyWe{
+    background-color: rgba(95, 54, 161, 1);
+}
+
+#faq{
+    background-color: rgba(31, 92, 55, 1);
+}
+
+#contacts{
+    background-color: rgba(106, 79, 35, 1);
+}
+
+#shopping{
+    background-color: rgba(201, 71, 101, 1);
+}
+
+#social{
+    background-color: rgba(252, 244, 241, 1);
 }
 
 #slider{
-    display: inline-block;
-    width: 600px;
     height: 400px;
-    margin-left: auto;
 }
 
 .iconLeft{
-    padding-top: 170%;
+    padding-top: 110%;
     margin-left: -30px;
     width: 50%;
+    display: none;
 }
 
 .iconRight{
-    padding-top: 170%;
+    padding-top: 110%;
     margin-right: -30px;
     width: 50%;
+    display: none;
 }
 
 #advantOne{
-    background-color: #282828;  /**for test*/
+    background-color: #dca7a7;  /**for test*/
     height: 200px;              /**for test*/
 }
 
@@ -65,4 +127,34 @@ body{
 #topResumeFour{
     background-color: #8a6d3b;  /**for test*/
     height: 300px;              /**for test*/
+}
+
+#serviceOne{
+    background-color: #ffff00;  /**for test*/
+    height: 200px;              /**for test*/
+}
+
+#serviceTwo{
+    background-color: #3e8f3e;   /**for test*/
+    height: 200px;               /**for test*/
+}
+
+#serviceTree{
+    background-color: #dca7a7;  /**for test*/
+    height: 200px;              /**for test*/
+}
+
+#serviceFour{
+    background-color: #46b8da;  /**for test*/
+    height: 200px;              /**for test*/
+}
+
+#contact{
+    background-color: #8a6d3b;  /**for test*/
+    height: 400px;              /**for test*/
+}
+
+#feedback{
+    background-color: #282828;  /**for test*/
+    height: 400px;              /**for test*/
 }

@@ -13,7 +13,7 @@ body{
 #logo{
     background-image: url("../img/ResumArt.gif");
     background-color: rgba(244, 244, 244,.3);
-    background-size: contain;
+    background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
     height: 70px;
@@ -132,16 +132,19 @@ body{
 #advantOne{
     background-color: #dca7a7;  /**for test*/
     height: 200px;              /**for test*/
+    padding-left: 20px;
 }
 
 #advantTwo{
     background-color: #285e8e;  /**for test*/
     height: 200px;              /**for test*/
+    padding-left: 20px;
 }
 
 #advantTree{
      background-color: #269abc;  /**for test*/
      height: 200px;              /**for test*/
+    padding-left: 20px;
  }
 
 #topResumeOne{

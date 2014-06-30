@@ -1,7 +1,7 @@
 /**Main styles for all Zartix*/
 
 body{
-    background-image: url("../img/squared_metal.png");
+    background-image: url("../img/sprinkles.png");
 }
 
 .col-lg-2 nav{
@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 70px;
-    box-shadow: inset 1px 2px 20px 2px rgba(255,255,255,.55), 1px 1px 10px 0px rgba(0,0,0,.55);
+    box-shadow: inset 1px 1px 30px 4px rgba(255,255,255,.55), 1px 1px 5px 0px rgba(0,0,0,.55);
     /*border-bottom: 1px dashed #222222;*/
     /*border-radius: 10px;*/
     margin-bottom: 5px;
@@ -25,15 +25,15 @@ body{
 
 #leftPanel div{
     height: 95px;
-    /*border-bottom: 1px dashed #222222;*/
     position: relative;
-    color: #ffffff;
+    color: rgba(234, 234, 234, 0.88);
     text-align: center;
     padding-top: 12px;
     cursor: pointer;
     margin-top: 2px;
     font-size: 20px;
-    text-shadow: 0px 1px 2px #020202;
+    text-shadow: 0px 0px 1px #020202;
+    border-radius: 3px;
 }
 
 #leftPanel div:after{
@@ -44,64 +44,59 @@ body{
     display: block;
     top: 0;
     left: 0;
-    box-shadow: inset 1px 1px 10px 1px rgba(224, 224, 224, 0.24);
-    background: -webkit-repeating-linear-gradient(-45deg, rgba(183, 183, 183, 0.1) 6px, rgba(183, 183, 183, 0.1) 6px, transparent 9px, transparent 13px);
-    transition-property: opacity, background, box-shadow;
+    /*box-shadow: inset 1px 1px 10px 2px rgba(224, 224, 224, 0.24);*/
+    background: -webkit-repeating-linear-gradient(-45deg, rgba(183, 183, 183, 0.05) 6px, rgba(183, 183, 183, 0.05) 6px, transparent 9px, transparent 13px);
+    transition-property: opacity, background, box-shadow, color;
     transition-duration: .3s;
 }
 
 #leftPanel div:hover::after{
     opacity: 0;
     background: rgba(244, 244, 244, 0.70);
-    border-radius: 10px;
 }
 
-#resumes{
+#resumesItem{
     background-color: rgba(67, 22, 58, 1);
-    border-radius: 10px;
+    /*background-image: url("../img/squared_metal.png");*/
 }
 
-#resumes:hover{
-    box-shadow: 1px 1px 20px 0px rgba(67, 22, 58,.95);
+#resumesItem:hover{
+    box-shadow: 1px 1px 10px 1px rgba(67, 22, 58,.95);
 }
 
-#services{
+#servicesItem{
     background-color: rgba(38, 45, 114, 1);
-    border-radius: 10px;
 }
 
-#services:hover{
-    box-shadow: 1px 2px 10px 2px rgba(38, 45, 114,.95);
+#servicesItem:hover{
+    box-shadow: 1px 1px 10px 1px rgba(38, 45, 114,.95);
 }
 
-#whyWe{
+#whyWeItem{
     background-color: rgba(95, 54, 161, 1);
-    border-radius: 10px;
 }
 
-#whyWe:hover{
-    box-shadow: 1px 2px 10px 2px rgba(95, 54, 161,.95);
+#whyWeItem:hover{
+    box-shadow: 1px 1px 10px 1px rgba(95, 54, 161,.95);
 }
 
-#faq{
+#faqItem{
     background-color: rgba(31, 92, 55, 1);
-    border-radius: 10px;
 }
 
-#faq:hover{
-    box-shadow: 1px 2px 10px 2px rgba(31, 92, 55,.95);
+#faqItem:hover{
+    box-shadow: 1px 1px 10px 1px rgba(31, 92, 55,.95);
 }
 
-#contacts{
+#contactsItem{
     background-color: rgba(10, 132, 141, 1);
-    border-radius: 10px;
 }
 
-#contacts:hover{
-    box-shadow: 1px 2px 10px 2px rgba(10, 132, 141,.95);
+#contactsItem:hover{
+    box-shadow: 1px 1px 10px 1px rgba(10, 132, 141,.95);
 }
 
-#social{
+#socialItem{
     background-color: rgba(244, 244, 244,.3);
     /*height: 72px;*/
     margin-top: 7px;
@@ -129,62 +124,76 @@ body{
     display: none;
 }
 
-#advantOne{
-    background-color: #dca7a7;  /**for test*/
-    height: 200px;              /**for test*/
+#advantages{
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+#advantages div{
     padding-left: 20px;
+    height: 200px;
+}
+
+#advantOne{
+    border-right: 2px dotted #222222;
 }
 
 #advantTwo{
-    background-color: #285e8e;  /**for test*/
-    height: 200px;              /**for test*/
-    padding-left: 20px;
+    border-right: 2px dotted #222222;
 }
 
 #advantTree{
-     background-color: #269abc;  /**for test*/
-     height: 200px;              /**for test*/
-    padding-left: 20px;
- }
+}
+
+#topResumes{
+    margin-top: 10px;
+    margin-left: 15px;
+}
 
 #topResumeOne{
-    background-color: #843534;  /**for test*/
+    /*background-color: #843534;  *//**for test*/
     height: 300px;              /**for test*/
 }
 
 #topResumeTwo{
-    background-color: #ac2925;  /**for test*/
+    /*background-color: #ac2925;  *//**for test*/
     height: 300px;              /**for test*/
 }
 
 #topResumeTree{
-    background-color: #c0a16b;  /**for test*/
+    /*background-color: #c0a16b;  *//**for test*/
     height: 300px;              /**for test*/
 }
 
 #topResumeFour{
-    background-color: #8a6d3b;  /**for test*/
+    /*background-color: #8a6d3b;  *//**for test*/
     height: 300px;              /**for test*/
 }
 
+#services{
+    margin-left: 1px;
+}
+
+#services div{
+    padding-left: 20px;
+    height: 200px;
+    color: #ffffff
+}
+
 #serviceOne{
-    background-color: #ffff00;  /**for test*/
-    height: 200px;              /**for test*/
+    background: url("http://lorempixel.com/300/200/technics/7");
 }
 
 #serviceTwo{
-    background-color: #3e8f3e;   /**for test*/
-    height: 200px;               /**for test*/
+    background: url("http://lorempixel.com/300/200/technics/8");
 }
 
 #serviceTree{
-    background-color: #dca7a7;  /**for test*/
-    height: 200px;              /**for test*/
+    background: url("http://lorempixel.com/300/200/technics/9");
 }
 
 #serviceFour{
-    background-color: #46b8da;  /**for test*/
-    height: 200px;              /**for test*/
+    background: url("http://lorempixel.com/300/300/technics/10");
 }
 
 #contact{

@@ -21,6 +21,8 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/vendor/bootstrap.js"></script>
 
+
+
     </head>
     <body class="container">
         <!--[if lt IE 7]>
@@ -48,10 +50,10 @@
                         <p>Контакты</p>
                     </div>
                     <p class="col-lg-12" id="socialItem">
-                        <img src="http://lorempixel.com/40/40/city/4">
-                        <img src="http://lorempixel.com/40/40/city/3">
-                        <img src="http://lorempixel.com/40/40/city/2">
-                        <img src="http://lorempixel.com/40/40/city/1">
+                        <a id="twit" href="http://www.twitter.com" target="_blank"><img src="img/twit_icon.png"></a>
+                        <a id="goog" href="http://www.google.com" target="_blank"><img src="img/goog_icon.png"></a>
+                        <a id="vk" href="http://www.vk.com" target="_blank"><img src="img/vk_icon.png"></a>
+                        <a id="face" href="http://www.facebook.com" target="_blank"><img src="img/face_icon.png"></a>
                     </p>
                 </nav>
             </div>
@@ -159,7 +161,10 @@
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-lg-6" id="contact">
-                                <p id="contInfo">Контактная информаия:</p>
+                                <h2 id="mainContact">Контактная информация:
+                                    <span id="minorContact">Будем рады вам помочь.</span>
+                                </h2>
+                                <!--<p id="contInfo">Контактная информация:</p>-->
                                 <p>mifragon@gmail.com</p>
                                 <p>Skype: masterspawns</p>
                                 <p>@MasterArea</p>
@@ -167,35 +172,62 @@
                             </div>
                             <div class="col-lg-6" id="feedback">
                                 <form action="" method="post" class="smart-green">
-                                    <h1>Contact Form
-                                        <span>Please fill all the texts in the fields.</span>
-                                    </h1>
+                                    <h2>Интересно узнать ваше мнение:
+                                        <span>Заполните поля ниже для отправки сообщения.</span>
+                                    </h2>
                                     <label>
-                                        <span>Your Name :</span>
-                                        <input id="name" type="text" name="name" placeholder="Your Full Name" />
+                                        <span>Представьтесь :</span>
+                                        <input id="name" type="text" name="name" placeholder="Ваше имя" />
                                     </label>
 
                                     <label>
-                                        <span>Your Email :</span>
-                                        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+                                        <span>Ваш E-Mail :</span>
+                                        <input id="email" type="email" name="email" placeholder="Введите ваш E-mail адрес" />
                                     </label>
 
                                     <label>
-                                        <span>Message :</span>
-                                        <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
-                                    </label>
-                                    <label>
-                                        <span>Subject :</span><select name="selection">
-                                        <option value="Job Inquiry">Job Inquiry</option>
-                                        <option value="General Question">General Question</option>
+                                        <span>Тема сообщения :</span><select name="selection">
+                                        <option value="Proposal">Предложение</option>
+                                        <option value="Review">Отзыв</option>
+                                        <option value="Message">Обращение</option>
+                                        <option value="Question">Вопрос</option>
+                                        <option value="Abuse">Жалоба</option>
                                     </select>
                                     </label>
+
                                     <label>
-                                        <span>&nbsp;</span>
-                                        <input type="button" class="button" value="Send" />
+                                        <span>Сообщение :</span>
+                                        <textarea id="message" name="message" placeholder="Ваше обращение"></textarea>
                                     </label>
+
+                                    <div>
+                                        <span>&nbsp;</span>
+                                        <!--<input type="button" class="button" value="Send" />-->
+                                        <button class="button" value="Send">Отправить</button>
+                                    </div>
                                 </form>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <footer class="footer">
+                                <div class="col-lg-7">© 2014 Все права защищены. ResumArt Studio</div>
+                                <div class="col-lg-5" id="socials">
+                                    <!--<script type="text/javascript">(function() {-->
+                                        <!--if (window.pluso)if (typeof window.pluso.start == "function") return;-->
+                                        <!--if (window.ifpluso==undefined) { window.ifpluso = 1;-->
+                                            <!--var d = document, s = d.createElement('script'), g = 'getElementsByTagName';-->
+                                            <!--s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;-->
+                                            <!--s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';-->
+                                            <!--var h=d[g]('body')[0];-->
+                                            <!--h.appendChild(s);-->
+                                        <!--}})();</script>-->
+                                    <!--<div class="pluso" data-background="transparent" data-options="small,square,line,horizontal,nocounter,theme=07" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir"></div>-->
+                                    <script type="text/javascript" charset="UTF-8" async="async" src="http://share.cntrlmrktng.ru/1.1/goodshare.js"></script>
+                                    <div id="goodshare" themecolor="clear" themestyle="roundedge" socialnetworks="vkontakte,ok,facebook,lj,twitter,googleplus,mailru,linkedin" iconsize="25" buttonfixed="none" viewcounter="false"></div>
+                                </div>
+                            </footer>
                         </div>
                     </div>
                 </div>

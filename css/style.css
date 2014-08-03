@@ -44,7 +44,7 @@ body{
     display: block;
     top: 0;
     left: 0;
-    /*box-shadow: inset 1px 1px 10px 2px rgba(224, 224, 224, 0.24);*/
+    box-shadow: inset 1px 1px 3px 1px rgba(224, 224, 224, 0.24);
     background: -webkit-repeating-linear-gradient(-45deg, rgba(183, 183, 183, 0.05) 6px, rgba(183, 183, 183, 0.05) 6px, transparent 9px, transparent 13px);
     transition-property: opacity, background, box-shadow, color;
     transition-duration: .3s;
@@ -140,6 +140,16 @@ body{
 
 #socialItem img{
     padding-left: 1px;
+    height: 40px;
+    width: 40px;
+}
+
+#socialItem a{
+    opacity: .8;
+}
+
+#socialItem a:hover{
+    opacity: 1;
 }
 
 #slider{
@@ -351,7 +361,7 @@ body{
 }
 
 #contact{
-    color: #000000;
+    color: #1e476c;
     font-size: 20px;
     text-align: center;
     margin-left: 5px;
@@ -360,7 +370,7 @@ body{
 #contInfo{
     margin-top: 0px;
     text-align: left;
-    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    /*font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;*/
     text-decoration: underline;
 }
 
@@ -369,13 +379,39 @@ body{
     border-left: 2px dashed #225079;
 }
 
-/*######## Smart Green ########*/
+#mainContact{
+    font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 20px;
+    display: block;
+    /*max-width: 97%;*/
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-left: -4px;
+    color: #FFF;
+    background: linear-gradient(bottom, #225079, #2e6ca3);
+    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
+    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
+    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
+    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-bottom:2px solid #ac2925;
+}
+
+#minorContact {
+    display: block;
+    font-size: 11px;
+    color: #FFF;
+}
+
+/*######## Smart Blue ########*/
 .smart-green {
     margin-left:10px;
-    margin-right:auto;
-
+    margin-right:-10px;
     max-width: 100%;
-    background: #F8F8F8;
+    /*background: #F8F8F8;*/
     padding: 30px 30px 20px 30px;
     font: 12px Arial, Helvetica, sans-serif;
     color: #666;
@@ -383,8 +419,8 @@ body{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
-.smart-green h1 {
-    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+.smart-green h2 {
+    font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
     padding: 10px 0px 10px 20px;
     display: block;
     margin: -30px -30px 10px -30px;
@@ -394,14 +430,12 @@ body{
     background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
     background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
     background: -o-linear-gradient(bottom, #225079, #2e6ca3);
-    text-shadow: 1px 1px 1px #949494;
-    /*border-radius: 5px 5px 0px 0px;*/
-    /*-webkit-border-radius: 5px 5px 0px 0px;*/
-    /*-moz-border-radius: 5px 5px 0px 0px;*/
-    border-bottom:1px solid #ac2925;
-
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-bottom:2px solid #ac2925;
 }
-.smart-green h1>span {
+.smart-green h2>span {
     display: block;
     font-size: 11px;
     color: #FFF;
@@ -446,16 +480,51 @@ body{
     height:30px;
 }
 .smart-green .button {
-    background-color: #9DC45F;
+    background-color: #80A24A;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-border-radius: 5px;
+    margin: 0px 0px 0px -5px;
     border: none;
     padding: 10px 25px 10px 25px;
     color: #FFF;
     text-shadow: 1px 1px 1px #949494;
 }
 .smart-green .button:hover {
-    background-color:#80A24A;
+    background-color:#9DC45F;
     text-shadow: 1px 0px 1px #ffffff;
 }
+
+.footer{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 12px;
+    margin-bottom: 1px;
+    padding-top: 5px;
+    box-shadow: inset 1px 2px 20px 1px rgba(255,255,255,.55), 0px 0px 7px 0px rgba(93, 93, 93, 0.6);
+}
+
+#socials{
+    text-align: right;
+}
+
+#goodshare{
+    /*margin-right: 10px;*/
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

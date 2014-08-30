@@ -36,6 +36,10 @@ body{
     /*border-radius: 5px;*/
 }
 
+#leftPanel a{
+    color: rgba(255, 247, 244, 1);
+}
+
 #leftPanel div:after{
     content: '';
     width: 100%;
@@ -189,7 +193,24 @@ body{
     border-right: 2px dashed #225079;
 }
 
-#advantTree{
+#resumeDescript button {
+    background-color: #80A24A;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    height: 30px;
+    border: none;
+    margin-right: -10px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+}
+
+#resumeDescript button:hover {
+    background-color:#9DC45F;
+}
+
+#resumeDescript .row{
+    margin-top: 3px;
 }
 
 #topResumes{
@@ -198,23 +219,61 @@ body{
 }
 
 #topResumeOne{
-    /*background-color: #843534;  *//**for test*/
     height: 300px;              /**for test*/
+}
+
+#centriumRed h4{
+    margin-top: 5px;
+}
+
+#centriumRed img{
+    grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
 #topResumeTwo{
-    /*background-color: #ac2925;  *//**for test*/
     height: 300px;              /**for test*/
+}
+
+#cilleniumBlue h4{
+    margin-top: 5px;
 }
 
 #topResumeTree{
-    /*background-color: #c0a16b;  *//**for test*/
     height: 300px;              /**for test*/
 }
 
+#basiumOra h4{
+    margin-top: 5px;
+}
+
 #topResumeFour{
-    /*background-color: #8a6d3b;  *//**for test*/
     height: 300px;              /**for test*/
+}
+
+#hadiumBlue h4{
+    margin-top: 5px;
+}
+
+#gradiumGrey h4{
+    margin-top: 5px;
+}
+
+#greumGrey h4{
+    margin-top: 5px;
+}
+
+#lineumBrown h4{
+    margin-top: 5px;
+}
+
+#logiumBlue h4{
+    margin-top: 5px;
+}
+
+#randiumBlue h4{
+    margin-top: 5px;
 }
 
 #services{

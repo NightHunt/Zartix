@@ -21,6 +21,11 @@ body{
     /*border-bottom: 1px dashed #222222;*/
     /*border-radius: 10px;*/
     margin-bottom: 5px;
+    transition-property: background-image;
+    transition-duration: .3s;
+}
+#logo:hover{
+    background-image: url("../img/ResumArtFocus.png");
 }
 
 #leftPanel div{
@@ -551,7 +556,7 @@ body{
 }
 .smart-green .button:hover {
     background-color:#9DC45F;
-    text-shadow: 1px 0px 1px #ffffff;
+    /*text-shadow: 1px 0px 1px #ffffff;*/
 }
 
 .footer{
@@ -571,6 +576,34 @@ body{
 #goodshare{
     /*margin-right: 10px;*/
     margin-top: -5px;
+}
+
+#resumHead{
+    font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 10px;
+    display: block;
+    /*max-width: 97%;*/
+    text-align: center;
+    margin-top: 1px;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: #FFF;
+    background: linear-gradient(bottom, #225079, #2e6ca3);
+    background: -webkit-linear-gradient(bottom, #2f71aa, #3c8ed6);
+    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
+    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
+    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-bottom:2px solid #ac2925;
+}
+
+#resumMinorText {
+    display: block;
+    font-size: 11px;
+    color: #FFF;
 }
 
 

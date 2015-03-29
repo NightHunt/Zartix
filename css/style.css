@@ -29,7 +29,7 @@ body{
 }
 
 #leftPanel div{
-    height: 95px;
+    height: 85px;
     position: relative;
     color: rgba(255, 247, 244, 1);
     text-align: center;
@@ -64,7 +64,7 @@ body{
     background: rgba(244, 244, 244, 0.70);
 }
 
-#resumesItem{
+#mainItem{
     /*background-color: rgba(67, 22, 58, 1); linear-gradient(bottom, #85201c, #b92c27)*/
     background: linear-gradient(bottom, #225079, #2e6ca3);
     background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
@@ -73,6 +73,20 @@ body{
     background: -o-linear-gradient(bottom, #225079, #2e6ca3);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+#mainItem:hover{
+    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255)); /*rgba(67, 22, 58,.95)*/
+    text-shadow: 0px 0px 1px #ffffff;
+}
+
+#resumesItem{
+    /*background-color: rgba(67, 22, 58, 1); linear-gradient(bottom, #85201c, #b92c27)*/
+    background: linear-gradient(bottom, #225079, #2e6ca3);
+    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
+    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
+    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
+    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
 }
 
 #resumesItem:hover{

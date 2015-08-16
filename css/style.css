@@ -1,183 +1,40 @@
-/**Main styles for all Zartix*/
+/**Main styles for all CVArt*/
 
 body{
     background-image: url("../img/cream_pixels.png");
 }
 
-.col-lg-2 nav{
-    /*for fixed menu*/
-    position: fixed;
-    width: 197px;
+#leftMenu {
+    text-align: right;
+}
+
+#menu {
+    margin-bottom: 30px;
+}
+
+#rightMenu {
+    text-align: left;
 }
 
 #logo{
-    background-image: url("../img/ResumArt.png");
-    background-color: rgba(244, 244, 244,.3);
+    background-image: url("../img/CVArt-Logo.png");
+/*    background-color: rgba(244, 244, 244,.3);*/
     background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 70px;
-    box-shadow: inset 1px 1px 30px 4px rgba(255,255,255,.55), 1px 1px 5px 0px rgba(0,0,0,.55);
+    height: 50px;
+    width: 150px;
+/*    box-shadow: inset 1px 1px 30px 4px rgba(255,255,255,.55), 1px 1px 5px 0px rgba(0,0,0,.55);*/
     /*border-bottom: 1px dashed #222222;*/
     /*border-radius: 10px;*/
-    margin-bottom: 5px;
+/*    margin-bottom: 5px;*/
     transition-property: background-image;
-    transition-duration: .3s;
-}
-#logo:hover{
-    background-image: url("../img/ResumArtFocus.png");
-}
-
-#leftPanel div{
-    height: 85px;
-    position: relative;
-    color: rgba(255, 247, 244, 1);
-    text-align: center;
-    padding-top: 12px;
-    cursor: pointer;
-    /*margin-top: 2px;*/
-    font-size: 20px;
-    /*text-shadow: 0px 0px 1px #020202;*/
-    /*border-radius: 5px;*/
-}
-
-#leftPanel a{
-    color: rgba(255, 247, 244, 1);
-}
-
-#leftPanel div:after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    box-shadow: inset 1px 1px 3px 1px rgba(224, 224, 224, 0.24);
-    background: -webkit-repeating-linear-gradient(-45deg, rgba(183, 183, 183, 0.05) 6px, rgba(183, 183, 183, 0.05) 6px, transparent 9px, transparent 13px);
-    transition-property: opacity, background, box-shadow, color;
-    transition-duration: .3s;
-}
-
-#leftPanel div:hover::after{
-    opacity: 0;
-    background: rgba(244, 244, 244, 0.70);
-}
-
-#mainItem{
-    /*background-color: rgba(67, 22, 58, 1); linear-gradient(bottom, #85201c, #b92c27)*/
-    background: linear-gradient(bottom, #225079, #2e6ca3);
-    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-#mainItem:hover{
-    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255)); /*rgba(67, 22, 58,.95)*/
-    text-shadow: 0px 0px 1px #ffffff;
-}
-
-#resumesItem{
-    /*background-color: rgba(67, 22, 58, 1); linear-gradient(bottom, #85201c, #b92c27)*/
-    background: linear-gradient(bottom, #225079, #2e6ca3);
-    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
-}
-
-#resumesItem:hover{
-    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255)); /*rgba(67, 22, 58,.95)*/
-    text-shadow: 0px 0px 1px #ffffff;
-}
-
-#servicesItem{
-    /*background-color: rgba(38, 45, 114, 1); linear-gradient(bottom, #32752d, #449e3c)*/
-    background: linear-gradient(bottom, #225079, #2e6ca3);
-    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
-}
-
-#servicesItem:hover{
-    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255); /*rgba(38, 45, 114,.95)*/
-    text-shadow: 0px 0px 1px #ffffff;
-}
-
-#whyWeItem{
-    /*background-color: rgba(95, 54, 161, 1);*/
-    background: linear-gradient(bottom, #225079, #2e6ca3);
-    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
-}
-
-#whyWeItem:hover{
-    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255); /*rgba(95, 54, 161,.95)*/
-    text-shadow: 0px 0px 1px #ffffff;
-}
-
-#faqItem{
-    /*background-color: rgba(31, 92, 55, 1);*/
-    background: linear-gradient(bottom, #225079, #2e6ca3);
-    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
-}
-
-#faqItem:hover{
-    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255); /*rgba(31, 92, 55,.95)*/
-    text-shadow: 0px 0px 1px #ffffff;
-}
-
-#contactsItem{
-    /*background-color: rgba(10, 132, 141, 1);*/
-    background: linear-gradient(bottom, #225079, #2e6ca3);
-    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-#contactsItem:hover{
-    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255); /*rgba(10, 132, 141,.95)*/
-    text-shadow: 0px 0px 1px #ffffff;
-}
-
-#socialItem{
-    background-color: rgba(244, 244, 244,.3);
-    /*height: 72px;*/
-    margin-top: 7px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    box-shadow: inset 1px 2px 20px 2px rgba(255,255,255,.55), 1px 1px 10px 0px rgba(0,0,0,.55);
-}
-
-#socialItem img{
-    padding-left: 1px;
-    height: 40px;
-    width: 40px;
-}
-
-#socialItem a{
-    opacity: .8;
-}
-
-#socialItem a:hover{
-    opacity: 1;
+/*    transition-duration: .3s;*/
 }
 
 #slider{
     height: 400px;
-    margin-bottom: -55px;
+/*    margin-bottom: -55px;*/
 }
 
 .iconLeft{
@@ -619,18 +476,3 @@ body{
     font-size: 11px;
     color: #FFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -9,7 +9,11 @@ body{
 }
 
 #menu {
-    margin-bottom: 30px;
+    margin: 5px 0px 5px 0px;
+}
+
+#menu a {
+    margin: 0px 20px 0px 20px;
 }
 
 #rightMenu {
@@ -19,17 +23,21 @@ body{
 #logo{
     background-image: url("../img/CVArt-Logo.png");
 /*    background-color: rgba(244, 244, 244,.3);*/
-    background-size: 120%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 190px;
 /*    box-shadow: inset 1px 1px 30px 4px rgba(255,255,255,.55), 1px 1px 5px 0px rgba(0,0,0,.55);*/
     /*border-bottom: 1px dashed #222222;*/
     /*border-radius: 10px;*/
 /*    margin-bottom: 5px;*/
     transition-property: background-image;
-/*    transition-duration: .3s;*/
+    transition-duration: .3s;
+}
+
+#logo:hover{
+    background-image: url("../img/CVArt-LogoFocus.png");
 }
 
 #slider{

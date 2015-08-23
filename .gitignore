@@ -1,2 +1,24 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+/img/cream_pixels.png
+/img/face_icon.png
+/img/goog_icon.png
+/img/ResumArtFocus.png
+/img/twit_icon.png
+/img/vk_icon.png
+/css/style.css
+/css/main.css
+/index.html
+/css/bootstrap.css
+/css/bootstrap-theme.css
+/css/normalize.css
+/why.html
+/services.html
+/resumes.html
+/faq.html
+/contact.html
+/js/main.js
+/js/plugins.js
+/js/vendor/bootstrap.js
+/js/vendor/jquery-1.10.2.min.js
+/js/vendor/modernizr-2.6.2.min.js

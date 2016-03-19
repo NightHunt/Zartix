@@ -33,49 +33,52 @@ body {
     display: none;
 }
 
-#advantages {
-/*    margin-left: 2px;*/
-/*    margin-top: 10px;*/
+#services {
     margin: 0px;
     padding: 0px;
     color: #FFFFFF;
-    padding-bottom: 45px;
 }
 
-#advantages div {
-    height: 200px;
-}
-
-#advantOne {
-    background-color: #9b6bcc;
+.advantages .glyphicon {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    color: #72C02C;
 }
 
 #advantTwo {
-    background-color: #E74C3C;
+    border-left: 1px dotted #72C02C;
+    border-right: 1px dotted #72C02C;
 }
 
-#advantTree {
-    background-color: #1cc5d4;
-}
-
-.advantages .advan:nth-child(2n) {
-    border-left: 2px solid #EEEEEE;
-    border-right: 2px solid #EEEEEE;
-}
-
-.row .advan {
+.advantages {
     display: block;
-    height: 170px;
     background: rgba(255,255,255,0.5);
     color: #555;
     text-align: center;
     margin: auto;
-    /*border: 1px solid #EEEEEE;*/
+    margin-bottom: -100px;
 }
 
 .heading {
     font-size: 18px;
     line-height: 24px;
+    margin: 0px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.heading:after {
+    content: " ";
+    left: 50%;
+    height: 1px;
+    width: 80px;
+    bottom: -15px;
+    position: absolute;
+    margin-left: -40px;
+    background: #72C02C;
 }
 
 .advan-text {
@@ -235,6 +238,22 @@ body {
 #topResumes .resumeDescrip  p {
     font-size: 16px;
     margin-bottom: 20px;
+}
+
+#services div {
+    height: 200px;
+}
+
+#serviceOne {
+    background-color: #9b6bcc;
+}
+
+#serviceTwo {
+    background-color: #E74C3C;
+}
+
+#serviceTree {
+    background-color: #1cc5d4;
 }
 
 #cilleniumBlue h4 {

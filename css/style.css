@@ -55,8 +55,8 @@ body {
 
 .advantages {
     display: block;
-    background: rgba(255,255,255,0.5);
-    color: #555;
+    background: rgba(255, 255, 255, 0.5);
+    color: #555555;
     text-align: center;
     margin: auto;
     margin-bottom: -100px;
@@ -99,7 +99,7 @@ body {
     height: 30px;
     border: none;
     margin-right: -10px;
-    color: #FFF;
+    color: #FFFFFF;
     text-shadow: 1px 1px 1px #949494;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 #centriumRed img {
-    grayscale(100%);
+grayscale(100 %);
     -moz-filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
@@ -134,7 +134,7 @@ body {
 #topResumeTwo,
 #topResumeTree,
 #topResumeFour {
-    background: #333;
+    background: #333333;
     position: relative;
     -webkit-backface-visibility: hidden; /*For Chrome*/
 }
@@ -152,7 +152,7 @@ body {
 #topResumeTwo:hover:after,
 #topResumeTree:hover:after,
 #topResumeFour:hover:after {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 #topResumeOne:after, #topResumeOne:hover:after,
@@ -175,8 +175,8 @@ body {
     -o-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
-    filter: grayscale(0); /* Microsoft Edge and Firefox 35+ */
-    -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
 }
 
 #topResumeOne:hover img,
@@ -187,8 +187,8 @@ body {
     -o-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
-    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 
 #topResumes .resumeDescrip {
@@ -225,17 +225,17 @@ body {
     width: 40px;
     content: " ";
     bottom: -10px;
-    background: #fff;
+    background: white;
     margin-left: -20px;
     position: absolute;
 }
 
-#topResumes .resumeDescrip  p,
-#topResumes .resumeDescrip  h3 {
-    color: white;
+#topResumes .resumeDescrip p,
+#topResumes .resumeDescrip h3 {
+    color: #FFFFFF;
 }
 
-#topResumes .resumeDescrip  p {
+#topResumes .resumeDescrip p {
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -245,7 +245,7 @@ body {
 }
 
 #serviceOne {
-    background-color: #9b6bcc;
+    background-color: #9B6BCC;
 }
 
 #serviceTwo {
@@ -253,7 +253,7 @@ body {
 }
 
 #serviceTree {
-    background-color: #1cc5d4;
+    background-color: #1CC5D4;
 }
 
 #cilleniumBlue h4 {
@@ -295,13 +295,13 @@ body {
 #services div {
     padding-left: 20px;
     height: 200px;
-    color: #ffffff;
+    color: #FFFFFF;
     margin-bottom: 10px;
 }
 
 .serviceGrid {
     position: relative;
-/*    background: url("http://lorempixel.com/300/200/technics/7");*/
+    /*    background: url("http://lorempixel.com/300/200/technics/7");*/
     transition-property: background, opacity, border-radius;
     transition-duration: .5s;
 }
@@ -328,7 +328,7 @@ body {
 }
 
 #contact {
-    color: #1e476c;
+    color: #1E476C;
     font-size: 20px;
     text-align: center;
     margin-left: 5px;
@@ -355,24 +355,23 @@ body {
     margin-top: 0px;
     margin-right: 15px;
     margin-left: -4px;
-    color: #FFF;
-    background: linear-gradient(bottom, #225079, #2e6ca3);
-    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
+    color: #FFFFFF;
+    background: linear-gradient(bottom, #225079, #2E6CA3);
+    background: -webkit-linear-gradient(bottom, #225079, #2E6CA3);
+    background: -moz-linear-gradient(bottom, #225079, #2E6CA3);
+    background: -ms-linear-gradient(bottom, #225079, #2E6CA3);
+    background: -o-linear-gradient(bottom, #225079, #2E6CA3);
     border-radius: 5px 5px 0px 0px;
     -webkit-border-radius: 5px 5px 0px 0px;
     -moz-border-radius: 5px 5px 0px 0px;
-    border-bottom: 2px solid #ac2925;
+    border-bottom: 2px solid #AC2925;
 }
 
 #minorContact {
     display: block;
     font-size: 11px;
-    color: #FFF;
+    color: #FFFFFF;
 }
-
 
 /*######## Smart Blue ########*/
 
@@ -383,7 +382,7 @@ body {
     /*background: #F8F8F8;*/
     padding: 30px 30px 20px 30px;
     font: 12px Arial, Helvetica, sans-serif;
-    color: #666;
+    color: #666666;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -394,22 +393,22 @@ body {
     padding: 10px 0px 10px 20px;
     display: block;
     margin: -30px -30px 10px -30px;
-    color: #FFF;
-    background: linear-gradient(bottom, #225079, #2e6ca3);
-    background: -webkit-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
+    color: #FFFFFF;
+    background: linear-gradient(bottom, #225079, #2E6CA3);
+    background: -webkit-linear-gradient(bottom, #225079, #2E6CA3);
+    background: -moz-linear-gradient(bottom, #225079, #2E6CA3);
+    background: -ms-linear-gradient(bottom, #225079, #2E6CA3);
+    background: -o-linear-gradient(bottom, #225079, #2E6CA3);
     border-radius: 5px 5px 0px 0px;
     -webkit-border-radius: 5px 5px 0px 0px;
     -moz-border-radius: 5px 5px 0px 0px;
-    border-bottom: 2px solid #ac2925;
+    border-bottom: 2px solid #AC2925;
 }
 
-.smart-green h2>span {
+.smart-green h2 > span {
     display: block;
     font-size: 11px;
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .smart-green label {
@@ -417,7 +416,7 @@ body {
     margin: 0px 0px 5px;
 }
 
-.smart-green label>span {
+.smart-green label > span {
     float: left;
     margin-top: 10px;
     color: #5E5E5E;
@@ -427,7 +426,7 @@ body {
 .smart-green input[type="email"],
 .smart-green textarea,
 .smart-green select {
-    color: #555;
+    color: #555555;
     height: 30px;
     line-height: 15px;
     width: 100%;
@@ -466,7 +465,7 @@ body {
     margin: 0px 0px 0px -5px;
     border: none;
     padding: 10px 25px 10px 25px;
-    color: #FFF;
+    color: #FFFFFF;
     text-shadow: 1px 1px 1px #949494;
 }
 
@@ -501,22 +500,22 @@ body {
     margin-right: 15px;
     margin-left: 10px;
     margin-bottom: 0px;
-    color: #FFF;
-    background: linear-gradient(bottom, #225079, #2e6ca3);
-    background: -webkit-linear-gradient(bottom, #2f71aa, #3c8ed6);
-    background: -moz-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -ms-linear-gradient(bottom, #225079, #2e6ca3);
-    background: -o-linear-gradient(bottom, #225079, #2e6ca3);
+    color: #FFFFFF;
+    background: linear-gradient(bottom, #225079, #2E6CA3);
+    background: -webkit-linear-gradient(bottom, #2F71AA, #3C8ED6);
+    background: -moz-linear-gradient(bottom, #225079, #2E6CA3);
+    background: -ms-linear-gradient(bottom, #225079, #2E6CA3);
+    background: -o-linear-gradient(bottom, #225079, #2E6CA3);
     border-radius: 5px 5px 0px 0px;
     -webkit-border-radius: 5px 5px 0px 0px;
     -moz-border-radius: 5px 5px 0px 0px;
-    border-bottom: 2px solid #ac2925;
+    border-bottom: 2px solid #AC2925;
 }
 
 #resumMinorText {
     display: block;
     font-size: 11px;
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .slog {
@@ -529,6 +528,6 @@ body {
     text-align: center;
 }
 
-#socialItem a{
+#socialItem a {
     margin-left: 40px;
 }
